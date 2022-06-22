@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Field from "./components/field";
 import { useState } from "react";
