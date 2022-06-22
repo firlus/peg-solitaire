@@ -9,14 +9,14 @@ env:
   APP_LOCATION: "/" # location of your client code
   APP_ARTIFACT_LOCATION: "build" # location of client code build output
 
-  on:
-    push:
-      branches:
-        - main
-    pull_request:
-      types: [opened, synchronize, reopened, closed]
-      branches:
-        - main
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - main
 
 permissions:
   issues: write
